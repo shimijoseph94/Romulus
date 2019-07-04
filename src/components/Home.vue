@@ -43,6 +43,7 @@
   <br>
      <!--2nd section-->
      <div class="container">
+       <div class="secd">
         <div class="row" style="padding-top:200px!important;">
            <div class="col-md-12 row" >
               <div class="col-md-6">
@@ -51,12 +52,12 @@
            <div class="col-md-6">
             <h3 style="color:black!important;text-align: justify!important;"><strong>ABOUT</strong></h3>
             <p class="para" style="text-align:justify!important;">Romulus Earl Whitaker (born 23 May 1943) is an Indian herpetologist, wildlife conservationist and founder of the Madras Snake Park, The Andaman and Nicobar Environment Trust (ANET), and the Madras Crocodile Bank Trust. In 2008, Whitaker was selected as an Associate Laureate in the 2008 Rolex Awards for Enterprise, for his efforts to create a network of rainforest research stations throughout India.In 2005 he was a winner of a Whitley Award for outstanding leadership in nature conservation. He used this award and found the Agumbe Rainforest Research Station in Karnataka, for the study of King Cobras and their habitat.</p>
-            <router-link to="Inpage" class="square_btn">KNOW MORE</router-link>
+            <router-link to="/Inpage" class="square_btn">KNOW MORE</router-link>
            </div>
           </div>
        </div>
      </div>
-  
+     </div>
   
   
   <div class="container">
@@ -67,14 +68,14 @@
                 <h4 style="color:black!important;text-align: justify!important;">MADRAS CROCODILE BANK TRUST</h4>
                 <p class="para">The Madras Crocodile Bank Trust and Centre for Herpetology (or Croc Bank) was the brain child of the legendary Romulus Whitaker and a handful of like-minded conservation visionaries who began work on the facility in 1976, in a desperate effort to save India’s dwindling crocodilian populations. Today, after more than 30 formidable years of cutting edge science and grassroots education, the Croc Bank remains a world leader in the field of frontline conservation and the preservation of natural landscapes.
                 </p>
-                   <a href="#" class="square_btn" style="text-align: center;">KNOW MORE</a>
+                   <router-link to="/CrocodileBank" class="square_btn" style="text-align: center;">KNOW MORE</router-link>
                 <br>
                 <br>
                </div>
             <div class="col-md-6">
               <h4 style="color:black!important;text-align:left!important;">SNAKE PARK CHENNAI</h4>
               <p class="para">Whitaker was the founder director of the Snake Park in Chennai. The park was conceived to rehabilitate the Irula tribe who are known for their expertise in catching snakes. The tribals were left jobless after the ban of snake trading. Whitaker helped the Irula tribe to get involved in extracting snake venom used for the production of antivenom drugs. Rom is the Founder-Director of the Madras Crocodile Bank Trust Centre for Herpetology, actively involved in crocodile breeding and conservation programs.</p>
-              <a href="#" class="square_btn" style="text-align: center;">KNOW MORE</a>
+              <router-link to="/Snakepark" class="square_btn" style="text-align: center;">KNOW MORE</router-link>
            </div>
         </div>
       </div>
@@ -310,7 +311,7 @@ and (max-width: 1366px)
   {
       display: inline-block;
       padding: 7px 20px;
-        border-radius: 25px;
+      border-radius: 25px;
       text-decoration: none;
       color: #FFF;
       background: cornflowerblue;
@@ -321,5 +322,5 @@ and (max-width: 1366px)
     min-width: 48%;
 }
   }
-  
+
   </style>

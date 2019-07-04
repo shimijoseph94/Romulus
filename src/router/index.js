@@ -4,6 +4,8 @@ import Home from '@/components/Home'
 import Test from '@/components/Test'
 import rr from '@/components/rr'
 import Inpage from '@/components/Inpage'
+import CrocodileBank from '@/components/CrocodileBank'
+import Snakepark from '@/components/Snakepark'
 
 Vue.use(Router)
 
@@ -25,9 +27,20 @@ export default new Router({
       component:Inpage
     },
     {
+      path: '/CrocodileBank',
+      name: CrocodileBank,
+      component:CrocodileBank
+    },
+    {
+      path: '/Snakepark',
+      name: Snakepark,
+      component:Snakepark
+    },
+    {
       path: '/rr',
       name: rr,
       component:rr
-    }
+    },
+
   ]
 })
