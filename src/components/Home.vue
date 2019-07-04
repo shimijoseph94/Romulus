@@ -2,7 +2,7 @@
     <div>
       <!-- First Section-->
     <div class="row">
-     <div class="col-md-12 row">
+     
         <div class="col-md-6" style="padding-top:140px!important;padding-left:140px!important;">
           <h4 style="color:black!important;text-align: justify!important;"><strong>Hi I am </strong></h4>
           <h4 style="color:black!important;text-align: justify!important;"><strong>Romulus Whitaker</strong> </h4>
@@ -36,13 +36,14 @@
           <img src="../assets/rt.png" style="padding-top:50px;height:650px;">
         </div>
        </div>
-     </div>
+     
      </div> 
   
-  
+  <br>
+  <br>
      <!--2nd section-->
      <div class="container">
-        <div class="row" style="padding-top:90px!important;">
+        <div class="row" style="padding-top:200px!important;">
            <div class="col-md-12 row" >
               <div class="col-md-6">
                   <img src="../assets/rome.jpeg" style="width:100%; height: auto;">
@@ -225,7 +226,7 @@ and (max-device-width : 480px)
   .figure 
   {
   height: 600px;
-  width: 700px;
+  width: 390px;
   background-color:cornflowerblue;
   border-bottom-left-radius: 100%200px;
   border-bottom-right-radius: 100%300px; 
@@ -270,7 +271,7 @@ and (max-width: 1605px)
   .figure 
   {
   height: 600px;
-  width: 700px;
+  width: 750px;
   background-color:cornflowerblue;
   border-bottom-left-radius: 100%200px;
   border-bottom-right-radius: 100%300px; 
@@ -320,4 +321,5 @@ and (max-width: 1366px)
     min-width: 48%;
 }
   }
+  
   </style>
