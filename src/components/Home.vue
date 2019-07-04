@@ -50,7 +50,7 @@
            <div class="col-md-6">
             <h3 style="color:black!important;text-align: justify!important;"><strong>ABOUT</strong></h3>
             <p class="para" style="text-align:justify!important;">Romulus Earl Whitaker (born 23 May 1943) is an Indian herpetologist, wildlife conservationist and founder of the Madras Snake Park, The Andaman and Nicobar Environment Trust (ANET), and the Madras Crocodile Bank Trust. In 2008, Whitaker was selected as an Associate Laureate in the 2008 Rolex Awards for Enterprise, for his efforts to create a network of rainforest research stations throughout India.In 2005 he was a winner of a Whitley Award for outstanding leadership in nature conservation. He used this award and found the Agumbe Rainforest Research Station in Karnataka, for the study of King Cobras and their habitat.</p>
-            <a href="#" class="square_btn">KNOW MORE</a>
+            <router-link to="Inpage" class="square_btn">KNOW MORE</router-link>
            </div>
           </div>
        </div>
