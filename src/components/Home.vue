@@ -96,15 +96,15 @@
     <div class="container">
          <div class="row"> 
               <div class="col-md-4">
-                 <img src="../assets/r7.jpeg" style="width:250px; height: 250px;">
+                <router-link to="#"> <img src="../assets/r7.jpeg" style="width:250px; height: 250px;"></router-link>
                  <h5>LOREUM IPSUM</h5>
               </div>
               <div class="col-md-4">
-                <img src="../assets/r8.jpeg" style="width:250px; height: 250px;">
+                <router-link to="#"> <img src="../assets/r8.jpeg" style="width:250px; height: 250px;"></router-link>
                 <h5>LOREUM IPSUM</h5>
               </div>
              <div class="col-md-4">
-              <img src="../assets/r9.jpeg" style="width:250px; height: 250px;">
+              <router-link to="#"><img src="../assets/r9.jpeg" style="width:250px; height: 250px;"></router-link>
               <h5>LOREUM IPSUM</h5>
             </div>
            <!-- <div class="col-md-3">
@@ -116,15 +116,15 @@
   <div class="container">
       <div class="row" style="padding-top:40px;">
          <div class="col-md-4">
-           <img src="../assets/rom.jpeg" style="width:250px; height: 250px;">
+          <router-link to="#"> <img src="../assets/rom.jpeg" style="width:250px; height: 250px;"></router-link>
            <h5>LOREUM IPSUM</h5>
          </div>
       <div class="col-md-4">
-        <img src="../assets/rom1.jpeg" style="width:250px; height: 250px;">
+        <router-link to="#"><img src="../assets/rom1.jpeg" style="width:250px; height: 250px;"></router-link>
         <h5>LOREUM IPSUM</h5>
       </div>
       <div class="col-md-4">
-        <img src="../assets/rr.jpeg" style="width:250px; height: 250px;">
+        <router-link to="#"> <img src="../assets/rr.jpeg" style="width:250px; height: 250px;"></router-link>
         <h5>LOREUM IPSUM</h5>
       </div>
       <!--<div class="col-md-3">
@@ -138,15 +138,15 @@
     <div class="container">
         <div class="row" style="padding-bottom:50px!important;"> 
             <div class="col-md-4">
-               <img src="../assets/r12.jpeg" style="width:250px; height: 250px;">
+              <router-link to="#"><img src="../assets/r12.jpeg" style="width:250px; height: 250px;"></router-link>
                <h5>ipsidum loreum</h5>
             </div>
             <div class="col-md-4">
-               <img src="../assets/r13.jpeg" style="width:250px; height: 250px;">
+              <router-link to="#"> <img src="../assets/r13.jpeg" style="width:250px; height: 250px;"></router-link>
                <h5>ipsidum loreum</h5>
             </div>
             <div class="col-md-4">
-               <img src="../assets/r14.jpeg" style="width:250px; height: 250px;">
+              <router-link to="#"> <img src="../assets/r14.jpeg" style="width:250px; height: 250px;"></router-link>
                <h5>ipsidum loreum</h5>
             </div>
             <!--<div class="col-md-3">

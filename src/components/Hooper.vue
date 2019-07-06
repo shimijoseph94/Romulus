@@ -7,7 +7,7 @@
           <div class="col-md-12">
               <h4 style="color:black!important;text-align:left!important;">SNAKE PARK CHENNAI</h4>
               <p class="para">Whitaker was the founder director of the Snake Park in Chennai. The park was conceived to rehabilitate the Irula tribe who are known for their expertise in catching snakes. The tribals were left jobless after the ban of snake trading. Whitaker helped the Irula tribe to get involved in extracting snake venom used for the production of antivenom drugs. Rom is the Founder-Director of the Madras Crocodile Bank Trust Centre for Herpetology, actively involved in crocodile breeding and conservation programs.</p>
-              <router-link to="/Snakepark" class="square_btn" style="text-align: center;">KNOW MORE</router-link> 
+              <router-link to="/Snakepark" class="square_btn" style="text-align: center!important;text-decoration:none!important;">KNOW MORE</router-link> 
           </div>  
         </slide> 
     <slide>
@@ -15,7 +15,7 @@
         <h4 style="color:black!important;text-align: justify!important;">MADRAS CROCODILE BANK TRUST</h4>
         <p class="para">The Madras Crocodile Bank Trust and Centre for Herpetology (or Croc Bank) was the brain child of the legendary Romulus Whitaker and a handful of like-minded conservation visionaries who began work on the facility in 1976, in a desperate effort to save India’s dwindling crocodilian populations. Today, after more than 30 formidable years of cutting edge science and grassroots education, the Croc Bank remains a world leader in the field of frontline conservation and the preservation of natural landscapes.
         </p>
-           <router-link to="/CrocodileBank" class="square_btn" style="text-align: center;">KNOW MORE</router-link> 
+           <router-link to="/CrocodileBank" class="square_btn" style="text-align: center!important;text-decoration:none!important;">KNOW MORE</router-link> 
       </div>  
     </slide> 
    
@@ -24,7 +24,7 @@
           <h4 style="color:black!important;text-align: justify!important;">INDIAN SNAKEBITE INITIATIVE</h4>
           <p class="para">Romulus Whitaker is the guiding force of the Indian Snakebite Initiative who always leads by example and keeps the team charged with his unmatched energy and wisdom. The Indian Snakebite Initiative is managed by a nationwide network of organizations, experts and institutions with a common aim to reduce snakebite mortality by 50% across India by 2030.The initiative is led by a group of experts and supported by an expert panel of advisors and organizational partners across the country.
           </p>
-             <router-link to="/IndianSnake" class="square_btn" style="text-align: center;">KNOW MORE</router-link> 
+             <router-link to="/IndianSnake" class="square_btn" style="text-align: center!important;text-decoration:none!important;">KNOW MORE</router-link> 
         </div>  
       </slide> 
 

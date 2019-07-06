@@ -1,12 +1,15 @@
 <template>
         <div>
-            
-          <div class="top" style="background-color:cornflowerblue!important;">
+            <Navbar></Navbar>
+          <!--<div class="top" style="background-color:cornflowerblue!important;">
              <h3 style="color:white!important;"><strong>CHENNAI SNAKE PARK</strong></h3>
              <h5 style="color:white!important;">Snake Park Trust</h5>
-         </div>
+         </div>-->
         
           <div class="container" style="padding-top:40px!important;">
+              <h3 style="color:black!important;"><strong>CHENNAI SNAKE PARK</strong></h3>
+              <br>
+              <br>
             <div class="verticalLine">
             <p class="para">The park, formerly known as the Madras Snake Park Trust (MSPT), was established by the American-born naturalised Indian herpetologist Romulus Whitaker, who, before coming to India in 1967, had worked with the Miami Serpentarium at Florida, United States. On his arrival to India, he established a small snake park at Selaiyur village, a suburb of Chennai. In 1972, he obtained a piece of land in Guindy on lease from the Forest Department of the Government of Tamil Nadu and, with the help of a group of naturalists from Chennai, set up a bigger park and soon constituted a trust to manage its affairs. The Board of Trustees consisted of Doris N. Chattopadhyaya, Harry Miller, M. V. Rajendran, S. Meenakshisundaram, M. Krishnan, Romulus Whitaker and A. N. Jagannatha Rao. In 1976 and 1988, ex officio trustees from various government institutions were added to the board.[3] The park underwent various renovation after 1994, including an aquarium for sea snakes and turtles and restoration of enclosures and additional facilities.
 
@@ -61,6 +64,15 @@
         </div>
         </template>
         <script>
+          import Navbar from "./Navbar";
+  
+  
+  export default {
+  name: "Snakepark",
+  components: {
+    Navbar
+  },
+  }
         </script>
         <style>
             

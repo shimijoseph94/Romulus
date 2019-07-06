@@ -2,7 +2,9 @@
     <div>
         <Navbar></Navbar>
         <div class="container" style="padding-top:40px!important;">
+            <h3 style="color:black!important;"><strong>INDIAN SNAKEBITE INITIATIVE</strong></h3>
                 <div class="verticalLine">
+                  
                 <p class="para">Romulus Whitaker is the guiding force of the Indian Snakebite Initiative who always leads by example and keeps the team charged with his unmatched energy and wisdom. The Indian Snakebite Initiative is managed by a nationwide network of organizations, experts and institutions with a common aim to reduce snakebite mortality by 50% across India by 2030.The initiative is led by a group of experts and supported by an expert panel of advisors and organizational partners across the country.</p>
                <p class="para">ISI is headed by a team of committed experts and is a mission dedicated towards the reduction of snakebites across the country. The activities undertaken reach far and wide into the country, especially into rural areas where such outreach can have the desired impact on the ground. It addresses the snakebite mortality challenge in a planned and systematic manner with clearly defined action plans and partnerships.</p>
             

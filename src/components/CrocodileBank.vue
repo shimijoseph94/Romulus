@@ -1,12 +1,14 @@
 <template>
         <div>
-            
-          <div class="top" style="background-color:cornflowerblue!important;">
+           <Navbar></Navbar> 
+         <!--<div class="top" style="background-color:cornflowerblue!important;">
              <h3 style="color:white!important;"><strong>THE MADRAS CROCODILE BANK TRUST</strong></h3>
              <h5 style="color:white!important;">CENTER FOR HERPOTOLOGY</h5>
-         </div>
+         </div>-->
         
           <div class="container" style="padding-top:40px!important;">
+              <h3 style="color:black!important;"><strong>MADRAS CROCODILE BANK TRUST</strong></h3>
+              <br>
             <div class="verticalLine">
             <p class="para">The Madras Crocodile Bank Trust and Centre for Herpetology (or Croc Bank) was the brain child of the legendary Romulus Whitaker and a handful of like-minded conservation visionaries who began work on the facility in 1976, in a desperate effort to save India’s dwindling crocodilian populations. Today, after more than 30 formidable years of cutting edge science and grassroots education, the Croc Bank remains a world leader in the field of frontline conservation and the preservation of natural landscapes.</p>
             <p class="para">The Croc Bank currently consists of a large reptile park near Chennai, Southern India, and several field projects located throughout the subcontinent reaching as far afield as the Nicobar Islands. The zoo sees close to half a million visitors per year making it one of the most popular tourist attractions along the famous East Coast Road.</p>
@@ -29,7 +31,14 @@
             
         </div>
         </template>
-        <script>
+  <script>
+  import Navbar from "./Navbar";
+   export default {
+  name: "Inpage",
+  components: {
+    Navbar
+  },
+  }
         </script>
         <style>
             
