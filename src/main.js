@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Hooper from 'hooper';
+import 'hooper/dist/hooper.css';
 import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 
 
 

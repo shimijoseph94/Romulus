@@ -1,9 +1,11 @@
 <template>
     <div>
+      
       <!-- First Section-->
+      <div class="container">
     <div class="row">
      
-        <div class="col-md-6" style="padding-top:140px!important;padding-left:140px!important;">
+        <div class="col-md-6" style="padding-top:140px!important;text-align: left!important;">
           <h4 style="color:black!important;text-align: justify!important;"><strong>Hi I am </strong></h4>
           <h4 style="color:black!important;text-align: justify!important;"><strong>Romulus Whitaker</strong> </h4>
           <br>
@@ -36,9 +38,11 @@
           <img src="../assets/rt.png" style="padding-top:50px;height:650px;">
         </div>
        </div>
+
+       
      
      </div> 
-  
+  </div>
   <br>
   <br>
      <!--2nd section-->
@@ -59,8 +63,14 @@
      </div>
      </div>
   
+
+     <div class="container">
+        <h3 style="color:black!important;text-align:center!important;padding-top:90px!important;"><strong>WORKS</strong></h3>
+     
+     <Hooper></Hooper>
+     </div>
   
-  <div class="container">
+  <!--<div class="container">
       <h3 style="color:black!important;text-align:center!important;padding-top:90px!important;"><strong>WORKS</strong></h3>
         <div class="row" style="padding-top:40px!important;">
            <div class="col-md-12 row" >
@@ -79,41 +89,47 @@
            </div>
         </div>
       </div>
-  </div>
+  </div>-->
   
   <!--portfolio-->
    <h3 style="color:black!important;text-align: center!important;padding-top:60px;padding-bottom:50px!important;"><strong>PORTFOLIO</strong></h3>
     <div class="container">
          <div class="row"> 
-              <div class="col-md-3">
+              <div class="col-md-4">
                  <img src="../assets/r7.jpeg" style="width:250px; height: 250px;">
+                 <h5>LOREUM IPSUM</h5>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <img src="../assets/r8.jpeg" style="width:250px; height: 250px;">
+                <h5>LOREUM IPSUM</h5>
               </div>
-             <div class="col-md-3">
+             <div class="col-md-4">
               <img src="../assets/r9.jpeg" style="width:250px; height: 250px;">
+              <h5>LOREUM IPSUM</h5>
             </div>
-            <div class="col-md-3">
+           <!-- <div class="col-md-3">
                <img src="../assets/r16.jpeg" style="width:250px; height: 250px;">
-            </div>
+            </div>-->
         </div> 
    </div> 
   
   <div class="container">
       <div class="row" style="padding-top:40px;">
-         <div class="col-md-3">
+         <div class="col-md-4">
            <img src="../assets/rom.jpeg" style="width:250px; height: 250px;">
+           <h5>LOREUM IPSUM</h5>
          </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <img src="../assets/rom1.jpeg" style="width:250px; height: 250px;">
+        <h5>LOREUM IPSUM</h5>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <img src="../assets/rr.jpeg" style="width:250px; height: 250px;">
+        <h5>LOREUM IPSUM</h5>
       </div>
-      <div class="col-md-3">
+      <!--<div class="col-md-3">
          <img src="../assets/r11.jpeg" style="width:250px; height: 250px;">
-      </div>
+      </div>-->
     </div>
   </div>    
    <br>
@@ -121,18 +137,21 @@
    
     <div class="container">
         <div class="row" style="padding-bottom:50px!important;"> 
-            <div class="col-md-3">
+            <div class="col-md-4">
                <img src="../assets/r12.jpeg" style="width:250px; height: 250px;">
+               <h5>ipsidum loreum</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                <img src="../assets/r13.jpeg" style="width:250px; height: 250px;">
+               <h5>ipsidum loreum</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                <img src="../assets/r14.jpeg" style="width:250px; height: 250px;">
+               <h5>ipsidum loreum</h5>
             </div>
-             <div class="col-md-3">
+            <!--<div class="col-md-3">
                 <img src="../assets/r15.jpeg" style="width:250px; height: 250px;">
-            </div>
+            </div>-->
         </div> 
       </div>   
      
@@ -143,12 +162,17 @@
   </template>
   
   <script>
+    import Hooper from "./hooper";
+  
+  
   export default {
-    name: 'Home',
-    data () {
-     
-    }
+  name: "Home",
+  components: {
+    Hooper
+  },
   }
+ 
+  
   </script>
   
   
@@ -322,5 +346,16 @@ and (max-width: 1366px)
     min-width: 48%;
 }
   }
-
+  @media only screen and (min-device-width: 1606px) and (max-device-width: 1824px) {
+  .figure 
+  {
+  height: 600px;
+  width: 1000px;
+  background-color:cornflowerblue;
+  border-bottom-left-radius: 100%200px;
+  border-bottom-right-radius: 100%300px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  }
+  }
   </style>

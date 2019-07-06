@@ -41,7 +41,7 @@
           padding-bottom:50px;
         }
         .para {
-          margin: 0;
+            margin: 0;
             color: black!important;
             font-size: 15px!important;
             line-height: 1.5 !important;
@@ -74,5 +74,6 @@
             margin-inline-end: 0px !important;
         
         }
+        
         </style>
         

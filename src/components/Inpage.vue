@@ -1,10 +1,25 @@
 <template>
 <div>
-    
-  <div class="top" style="background-color:cornflowerblue!important;">
-     <h3 style="color:white!important;"><strong>ROMULUS WHITAKER</strong></h3>
-     <h5 style="color:white!important;">Indian herpetologist, Wildlife conservationist</h5>
- </div>
+  <Navbar></Navbar>
+ <!-- <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h4 class="text-white">Collapsed content</h4>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>-->
+  <!--<div class="top" style="background-color:cornflowerblue!important;">
+   <h5 style="color:white!important;text-align: left!important;"><a href="/" style="color: white!important;text-decoration: none!important;">ROMULUS WHITAKER</a></h5>
+   <h5 style="color:white!important;text-align: left!important;"><a href="/" style="color: white!important;text-decoration: none!important;float: right!important;">Home</a></h5>
+   
+   
+ </div>-->
 
   <div class="container" style="padding-top:40px!important;">
     <div class="verticalLine">
@@ -13,7 +28,7 @@
       He is a Member of the Advisory Committee and the Editorial Board of the Bombay Natural History Society, as well as Correspondent, The Society for the Study of Amphibians and Reptiles, USA; Advisor, Irula Tribal Women's’ Welfare Society, Afforestation Project; Member, Centre for Science and Education, New Delhi; Member, Centre for Environment Education, Ahmedabad and Founder-Member, Tamil Nadu Society for Social Forestry Research. He is also Chief Technical Advisor, Irula Snake Catchers’ Industrial Cooperative Society; Convenor, Indian National Trust for Art and Cultural Heritage (INTACH), Andaman and Nicobar Islands Chapter; and Founder – Member, Palni Hills Conservation Council.</p>
     </div>
      </div>
-
+<br>
 <!-- 3rd Section-->
 <div class="container" style="padding-top:30px!important;padding-bottom: 20px!important;">
     <b-card no-body class="overflow-hidden" style="max-width: 540px;">
@@ -43,6 +58,17 @@
 </div>
 </template>
 <script>
+ 
+  import Navbar from "./Navbar";
+  
+  
+  export default {
+  name: "Inpage",
+  components: {
+    Navbar
+  },
+  }
+ 
 </script>
 <style>
     
@@ -50,8 +76,8 @@
   border-style: solid!important;
   border-width: 1px!important;
   border-color:#eee !important;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 .para {
   margin: 0;
@@ -87,4 +113,6 @@
     margin-inline-end: 0px !important;
 
 }
+
+
 </style>

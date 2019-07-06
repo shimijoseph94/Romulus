@@ -9,10 +9,11 @@
 
 <script>
 import Footer from  '../src/components/Footer'
+import Hooper from 'hooper';
 export default {
   name: 'App',
   components:{
-    Footer
+    Footer,Hooper
   },
 }
 </script>

@@ -2,10 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Test from '@/components/Test'
-import rr from '@/components/rr'
+import IndianSnake from '@/components/IndianSnake'
 import Inpage from '@/components/Inpage'
 import CrocodileBank from '@/components/CrocodileBank'
 import Snakepark from '@/components/Snakepark'
+
+
 
 Vue.use(Router)
 
@@ -37,10 +39,11 @@ export default new Router({
       component:Snakepark
     },
     {
-      path: '/rr',
-      name: rr,
-      component:rr
+      path: '/IndianSnake',
+      name: IndianSnake,
+      component:IndianSnake
     },
+    
 
   ]
 })
